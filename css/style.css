@@ -762,3 +762,89 @@ footer{
     font-size:.9rem;
 
 }
+
+/* ===========================
+   Call To Action
+=========================== */
+
+.cta{
+
+    background:linear-gradient(135deg,#0056b3,#2f80ed);
+
+    color:white;
+
+    padding:120px 8%;
+
+    text-align:center;
+
+}
+
+.cta-content{
+
+    max-width:800px;
+
+    margin:auto;
+
+}
+
+.cta h2{
+
+    font-size:3rem;
+
+    margin-bottom:25px;
+
+}
+
+.cta p{
+
+    font-size:1.15rem;
+
+    line-height:1.8;
+
+    margin-bottom:45px;
+
+    color:rgba(255,255,255,.9);
+
+}
+
+.cta-buttons{
+
+    display:flex;
+
+    justify-content:center;
+
+    gap:20px;
+
+    flex-wrap:wrap;
+
+}
+
+/* White outlined button */
+
+.secondary-light{
+
+    display:inline-block;
+
+    padding:16px 34px;
+
+    border:2px solid white;
+
+    border-radius:50px;
+
+    color:white;
+
+    text-decoration:none;
+
+    font-weight:bold;
+
+    transition:.3s;
+
+}
+
+.secondary-light:hover{
+
+    background:white;
+
+    color:#0056b3;
+
+}
