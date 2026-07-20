@@ -100,7 +100,9 @@ nav a:hover{
 
 .hero{
 
-    height:85vh;
+    position:relative;
+
+    height:90vh;
 
     display:flex;
 
@@ -110,9 +112,15 @@ nav a:hover{
 
     text-align:center;
 
-    padding:40px;
+    background:
+        linear-gradient(
+            rgba(0,0,0,.45),
+            rgba(0,0,0,.45)
+        ),
+        url("../images/hero.jpg");
 
-    background:linear-gradient(135deg,#1f5fbf,#5ca9ff);
+    background-size:cover;
+    background-position:center;
 
     color:white;
 
@@ -122,21 +130,27 @@ nav a:hover{
 
     max-width:700px;
 
+    padding:20px;
+
+    animation:fadeUp 1s ease;
+
 }
 
 .hero h1{
 
-    font-size:3.5rem;
+    font-size:4rem;
 
     margin-bottom:25px;
+
+    line-height:1.1;
 
 }
 
 .hero p{
 
-    font-size:1.2rem;
+    font-size:1.3rem;
 
-    margin-bottom:35px;
+    margin-bottom:40px;
 
 }
 
