@@ -554,3 +554,77 @@ footer{
     box-shadow:0 18px 35px rgba(0,0,0,.18);
 
 }
+
+/* ===========================
+   Trusted By
+=========================== */
+
+.trusted{
+
+    background:#16212f;
+
+    color:white;
+
+    padding:100px 8%;
+
+}
+
+.dark-title h2{
+
+    color:white;
+
+}
+
+.dark-title p{
+
+    color:#c8d3df;
+
+}
+
+.logo-grid{
+
+    margin-top:60px;
+
+    display:grid;
+
+    grid-template-columns:repeat(3,1fr);
+
+    gap:30px;
+
+}
+
+.client-logo{
+
+    background:#223245;
+
+    border:1px solid rgba(255,255,255,.08);
+
+    border-radius:12px;
+
+    height:120px;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    font-size:1.25rem;
+
+    font-weight:700;
+
+    letter-spacing:2px;
+
+    color:#dfe8f2;
+
+    transition:.3s;
+
+}
+
+.client-logo:hover{
+
+    background:#2b3f56;
+
+    transform:translateY(-6px);
+
+}
