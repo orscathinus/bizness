@@ -154,27 +154,15 @@ nav a:hover{
 
 }
 
-/* ===========================
-   Buttons
-=========================== */
-
-.buttons{
-
-    display:flex;
-
-    justify-content:center;
-
-    gap:20px;
-
-}
-
 .btn{
 
-    padding:15px 30px;
+    display:inline-block;
+
+    padding:16px 34px;
+
+    border-radius:50px;
 
     text-decoration:none;
-
-    border-radius:8px;
 
     font-weight:bold;
 
@@ -192,7 +180,9 @@ nav a:hover{
 
 .primary:hover{
 
-    transform:translateY(-3px);
+    transform:translateY(-4px);
+
+    box-shadow:0 10px 25px rgba(0,0,0,.25);
 
 }
 
@@ -225,5 +215,26 @@ footer{
     background:#1d2735;
 
     color:white;
+
+}
+/* ===========================
+   Animations
+=========================== */
+
+@keyframes fadeUp{
+
+    from{
+
+        opacity:0;
+        transform:translateY(40px);
+
+    }
+
+    to{
+
+        opacity:1;
+        transform:translateY(0);
+
+    }
 
 }
