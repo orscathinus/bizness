@@ -628,3 +628,51 @@ footer{
     transform:translateY(-6px);
 
 }
+
+/* ===========================
+   Responsive Design
+=========================== */
+
+@media (max-width: 900px) {
+
+    /* Navigation */
+
+    /* Features */
+
+    /* Products */
+
+    /* Gallery */
+
+    .gallery-grid{
+        grid-template-columns:repeat(2,1fr);
+    }
+
+    /* Trusted By */
+
+    .logo-grid{
+        grid-template-columns:repeat(2,1fr);
+    }
+
+}
+
+@media (max-width: 600px) {
+
+    /* Navigation */
+
+    /* Features */
+
+    /* Products */
+
+    /* Gallery */
+
+    .gallery-grid{
+        grid-template-columns:1fr;
+    }
+
+    /* Trusted By */
+
+    .logo-grid{
+        grid-template-columns:1fr;
+    }
+
+}
